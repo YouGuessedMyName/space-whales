@@ -1,0 +1,55 @@
+beginning:
+  initial:
+    - - Je voelt de sensatie van water om je heen.
+      - Je verliest langzaam je bewustzijn.
+    - - Je wordt weer bewust, maar je voelt het nog steeds. 
+      - Je hoort een langzaam getik. 
+        Het is constant. Het doet je denken aan een oude koekoeksklok.
+      - Nieuwschierig open je je ogen.
+    - - Het eerste wat je opvalt zijn de vele lichtpuntjes om je heen. 
+      - Zo ver het oog rijkt. Het lijken wel sterren.
+    - - Is dit een droom?
+
+  what_to_do:
+    look_fingers:
+      - - Kijken of je het juiste aantal vingers hebt.
+    wake_up:
+      - - Proberen om wakker te worden.
+    chill:
+      - - Je overgeven aan de droom (?)
+
+  look_fingers:
+    q:
+      - - Je hebt vijf vingers. Maar was dat nou het juiste aantal?
+    yes:
+      - - Ja
+        - Daar wordt je niet veel wijzer van.
+    nee:
+      - - Nee
+        - Dus het is wel een droom!
+
+  wake_up:
+    q:
+      - - Je hebt een trucje wat je altijd gebruikt om wakker te worden uit nachtmerries, namelijk;
+    one:
+      - - Je beweegt eerst je vingers, dan kan je je handen langzaam bewegen. En zo ga je door totdat je wakker wordt.
+    two:
+      - - Je kan vreemde spieren in je oor bewegen waardoor je een geluid hoort waardoor je wakker wordt.
+    three:
+      - - TODO
+
+
+
+    
+
+errors:
+  expected_integer:
+    Voer een nummer in.
+  dialogue_not_found:
+    Sorry, de maker van dit spel is een idioot.
+
+
+end:
+  end:
+    Bedankt voor het spelen! Dit spel is nog niet af <3.
+    
