@@ -4,52 +4,54 @@ beginning:
       - Je verliest langzaam je bewustzijn.
     - - Je wordt weer bewust, maar je voelt het nog steeds. 
       - Je hoort een langzaam getik. 
-        Het is constant. Het doet je denken aan een oude koekoeksklok.
-      - Nieuwschierig open je je ogen.
-    - - Het eerste wat je opvalt zijn de vele lichtpuntjes om je heen. 
-      - Zo ver het oog rijkt. Het lijken wel sterren.
-    - - Is dit een droom?
+      - Het is constant. 
+      - Het doet je denken aan een oude koekoeksklok.
+    - - Nieuwschierig open je je ogen.
+      - Het eerste wat je opvalt zijn de vele lichtpuntjes om je heen. 
+      - Zo ver het oog rijkt. 
+      - Het lijken wel sterren.
+      - Is dit een droom?
 
   what_to_do:
+    q: Wat doe je?
     look_fingers:
-      - - Kijken of je het juiste aantal vingers hebt.
+      o: Kijken of je het juiste aantal vingers hebt.
     wake_up:
-      - - Proberen om wakker te worden.
+      o: Proberen om wakker te worden.
     chill:
-      - - Je overgeven aan de droom (?)
+      o: Je overgeven aan de droom (?)
 
   look_fingers:
     q:
-      - - Je hebt vijf vingers. Maar was dat nou het juiste aantal?
-    yes:
-      - - Ja
-        - Daar wordt je niet veel wijzer van.
-    nee:
-      - - Nee
-        - Dus het is wel een droom!
+      Je hebt vijf vingers. Maar was dat nou het juiste aantal?
+    yeah:
+      o: Ja
+      r: Daar wordt je niet veel wijzer van.
+    nah:
+      o: Nee
+      r: Dus het is wel een droom!
 
   wake_up:
     q:
-      - - Je hebt een trucje wat je altijd gebruikt om wakker te worden uit nachtmerries, namelijk;
+      Je hebt een trucje wat je altijd gebruikt om wakker te worden uit nachtmerries, namelijk;
     one:
-      - - Je beweegt eerst je vingers, dan kan je je handen langzaam bewegen. En zo ga je door totdat je wakker wordt.
+      o: Je beweegt eerst je vingers, dan kan je je handen langzaam bewegen. En zo ga je door totdat je wakker wordt.
     two:
-      - - Je kan vreemde spieren in je oor bewegen waardoor je een geluid hoort waardoor je wakker wordt.
+      o: Je kan vreemde spieren in je oor bewegen waardoor je een geluid hoort waardoor je wakker wordt.
     three:
-      - - TODO
-
-
-
-    
+      o: TODO  
 
 errors:
   expected_integer:
-    Voer een nummer in.
+    Voer een nummer in 
+  expected_integer_range:
+    tussen de {num1} en {num2}
   dialogue_not_found:
     Sorry, de maker van dit spel is een idioot.
 
 
 end:
   end:
-    Bedankt voor het spelen! Dit spel is nog niet af <3.
+    - - De toekomst zal leren hoe dit spel afloopt.
+      - Bedankt voor het spelen.
     
