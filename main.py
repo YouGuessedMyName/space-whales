@@ -6,7 +6,7 @@ def load_dialogue(file_path: str) -> dict:
         dialogue = yaml.safe_load(file)
     return dialogue
 
-DIALOGUE_PATH = "dutch.yaml"
+DIALOGUE_PATH = "english.yaml"
 D = load_dialogue(DIALOGUE_PATH)
 set_error_messages(D["errors"])
 

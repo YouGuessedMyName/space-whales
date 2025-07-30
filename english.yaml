@@ -1,0 +1,55 @@
+beginning:
+  initial:
+    - - You feel the sensation of water around you.
+      - Slowly, you lose your consciousness.
+    - - You come to your senses, but you can still feel it. 
+      - You hear a slow ticking. 
+      - It is constant. 
+      - It reminds you of an old cuckoo clock.
+    - - Curious, you open your eyes.
+      - The first thing that you notice are the many small points of light around you. 
+      - As far as the eye can reach. 
+      - They ressemble stars in the night sky.
+      - Is this a dream?
+
+  what_to_do:
+    q: What do you do?
+    look_fingers:
+      o: Look if you have the correct number of fingers.
+    wake_up:
+      o: Try to wake up
+    chill:
+      o: Surrender yourself to the dream (?)
+
+  look_fingers:
+    q:
+      You have five fingers. Do you think that this is the right amount?
+    yeah:
+      o: Yes.
+      r: Well, then that does not tell you anything.
+    nah:
+      o: No.
+      r: So it is a dream after all!
+
+  wake_up:
+    q:
+      You have a trick that you use to wake up from nightmares, namely;
+    one:
+      o: You can still move your fingers, and then you can slowly start moving more of your body until you wake up.
+    two:
+      o: You can contract muscles in your ear, which causes you to hear a sound from which you wake up.
+
+errors:
+  expected_integer:
+    Please type an integer
+  expected_integer_range:
+    between {num1} and {num2}
+  dialogue_not_found:
+    Sorry, the creator of this game is an idiot.
+
+
+end:
+  end:
+    - - De future will tell how this game will end.
+      - Thank you for playing.
+    

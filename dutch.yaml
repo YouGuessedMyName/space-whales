@@ -38,8 +38,6 @@ beginning:
       o: Je beweegt eerst je vingers, dan kan je je handen langzaam bewegen. En zo ga je door totdat je wakker wordt.
     two:
       o: Je kan vreemde spieren in je oor bewegen waardoor je een geluid hoort waardoor je wakker wordt.
-    three:
-      o: TODO  
 
 errors:
   expected_integer:
